@@ -12,5 +12,9 @@ while i < len(stack)-1:
     if (math.fabs(stack[i]) == stack[i] and math.fabs(stack[i + 1]) == stack[i + 1]) or (
             math.fabs(stack[i]) != stack[i] and math.fabs(stack[i + 1]) != stack[i + 1]):
         is_similar_sign = True
-        print(stack[i], stack[i + 1])
+        #print(stack[i], stack[i + 1]) - return all values pairs
+    print(stack[i], stack[i + 1])
     i += 1
+    break
+
+
